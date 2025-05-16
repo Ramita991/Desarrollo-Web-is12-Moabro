@@ -1,0 +1,118 @@
+/*estilo para toda la pagina*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/*encabezado*/
+header {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/*menu de navegacion*/
+nav ul {
+    list-style: none; /* esto saca los puntos de la lista*/
+    display: flex; /*activa flexbox para alinear en fila*/
+    justify-content: center; /*centra horizontalmente*/
+    gap: 20px; /* espacio entre los items*/
+    padding: 0; /*elimina el padding de la lista*/
+    margin: 0; /*elimina el margen de la lista*/
+    background-color: #003366;/*color de fondo*/
+}
+
+/*estilo para cada enlace*/
+nav a {
+    color: white;
+    text-decoration: none; /* elimina el subrayado de los enlaces*/
+    padding: 15px 20px;
+    display: block; /* hace que cada enlace ocupe toda el area del li*/
+}
+
+/* efecto de mouse*/
+nav a:hover {
+    background-color: #002244; /* cuando el usuario pasa el mouse sobre un enlace cambia de color*/
+}
+
+html {
+    scroll-behavior: smooth; /* aplica el desplazamiento suave*/
+}
+
+/*estilo gral para todas las secciones*/
+section {
+    background-color: #f0f0f0; /*fondo */
+    margin: 30px auto; /*espacio exterior de 30px arriba y abajo, y centra las secciones horizontalmente*/
+    padding: 20 px; /*espacio interior dentro de cada seccion para que el contenido no quede pegado al borde*/
+    max-width: 800px; /*limita el ancho maximo de las secciones para q no se vean demasiado grandes*/
+    border-radius: 8px; /* borde redondeado*/
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /*sombra suave para dar efecto de elevacion*/
+}
+
+#Inicio {
+    background-color: e0f7fa; 
+    border-left: 5px solid #004080; /* borde izquierdo para darle enfasis a la seccion*/
+    border-right: 3px solid #004080 ;/* borde derecho para darle enfasis a la seccion*/
+    padding-left: 20px;
+    max-width: 800px;
+    width: 90%;
+    margin-left: 30px; 
+}
+#Servicios { 
+    background-color: e8f5e9;
+    border-left: 5px solid #004080; /* borde izquierdo para darle enfasis a la seccion*/
+    border-right: 3px solid #004080 ;/* borde derecho para darle enfasis a la seccion*/
+    padding-left: 20px;
+    max-width: 800px;
+    width: 90%;
+    margin-left: 30px;  
+}
+#NuestroEquipo { 
+    background-color: fff3e0;
+    border-left: 5px solid #004080; /* borde izquierdo para darle enfasis a la seccion*/
+    border-right: 3px solid #004080 ;/* borde derecho para darle enfasis a la seccion*/
+    padding-left: 20px;
+    max-width: 800px;
+    width: 90%;
+    margin-left: 30px; 
+}
+
+#Contacto {
+    background-color: #e6f2ff; /* fondo para la seccion contacto*/
+    border-left: 5px solid #004080; /* borde izquierdo para darle enfasis a la seccion*/
+    border-right: 3px solid #004080 ;/* borde derecho para darle enfasis a la seccion*/
+    padding-left: 20px;
+    max-width: 800px;
+    width: 90%;
+    margin-left: 30px;
+}
+
+/*estilo para titulo secundario*/
+h2 {
+    color: #004080; /*color para los titulos*/
+    margin-bottom: 10px; /* añade un margen abajo del titulo para separarlo del contenido siguiente*/
+}
+
+/*estilo para parrafos*/
+p {
+    line-height: 1.6; /* interlineado */
+}
+
+/* estilo para las listas dentro de las secciones*/
+ul {
+    padding-left: 20px; /*añade sangria a la izquierda*/
+}
+
+/*estilo para los items de las listas*/
+ul li {
+    margin-bottom: 8px; /* espacio abajo de cada item de la lista*/
+}
+
+/* seccion de contacto*/
+
+
+
