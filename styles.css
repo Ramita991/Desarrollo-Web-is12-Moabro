@@ -24,6 +24,7 @@ nav ul {
     padding: 0; /*elimina el padding de la lista*/
     margin: 0; /*elimina el margen de la lista*/
     background-color: #003366;/*color de fondo*/
+    border-radius: 8px;
 }
 
 /*estilo para cada enlace*/
@@ -54,9 +55,9 @@ section {
 }
 
 #Inicio {
-    background-color: e0f7fa; 
-    border-left: 8px solid #004080; /* borde izquierdo para darle enfasis a la seccion*/
-    border-right: 5px solid #004080 ;/* borde derecho para darle enfasis a la seccion*/
+    background-color: #8affe2ec; 
+    border-left: 5px solid #004080; /* borde izquierdo para darle enfasis a la seccion*/
+    border-right: 3px solid #004080 ;/* borde derecho para darle enfasis a la seccion*/
     padding-left: 20px;
     max-width: 800px;
     width: 90%;
@@ -64,7 +65,7 @@ section {
     justify-content: center; 
 }
 #Servicios { 
-    background-color: e8f5e9;
+    background-color: #8affe2ec;
     border-left: 5px solid #004080; /* borde izquierdo para darle enfasis a la seccion*/
     border-right: 3px solid #004080 ;/* borde derecho para darle enfasis a la seccion*/
     padding-left: 20px;
@@ -73,7 +74,7 @@ section {
     margin-left: 30px;  
 }
 #NuestroEquipo { 
-    background-color: fff3e0;
+    background-color: #8affe2ec;
     border-left: 5px solid #004080; /* borde izquierdo para darle enfasis a la seccion*/
     border-right: 3px solid #004080 ;/* borde derecho para darle enfasis a la seccion*/
     padding-left: 20px;
@@ -83,7 +84,7 @@ section {
 }
 
 #Contacto {
-    background-color: #e6f2ff; /* fondo para la seccion contacto*/
+    background-color: #8affe2ec; /* fondo para la seccion contacto*/
     border-left: 5px solid #004080; /* borde izquierdo para darle enfasis a la seccion*/
     border-right: 3px solid #004080 ;/* borde derecho para darle enfasis a la seccion*/
     padding-left: 20px;
@@ -113,7 +114,15 @@ ul li {
     margin-bottom: 8px; /* espacio abajo de cada item de la lista*/
 }
 
-/* seccion de contacto*/
+/* Imagen */
+img {
 
+    width: 180px;
+    height: auto;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    z-index: 1000;
+}
 
 
