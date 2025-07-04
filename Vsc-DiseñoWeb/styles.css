@@ -1,18 +1,31 @@
+
 /*estilo para toda la pagina*/
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
+    font-family: system-ui, sans-serif;
+    margin: 20px;
     padding: 0px;
     background-color: #f4f4f4;
     color: #333;
+    background-image: url("/Vsc-DiseñoWeb/Imagenes/fire-1842140.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+
 
 /*encabezado*/
 header {
-    background-color: #004080;
-    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 30px;
+    z-index: 2;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+    
 }
 
 /*menu de navegacion*/
@@ -23,13 +36,12 @@ nav ul {
     gap: 20px; /* espacio entre los items*/
     padding: 0; /*elimina el padding de la lista*/
     margin: 0; /*elimina el margen de la lista*/
-    background-color: #003366;/*color de fondo*/
     border-radius: 8px;
 }
 
 /*estilo para cada enlace*/
 nav a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none; /* elimina el subrayado de los enlaces*/
     padding: 15px 20px;
     display: block; /* hace que cada enlace ocupe toda el area del li*/
@@ -37,11 +49,18 @@ nav a {
 
 /* efecto de mouse*/
 nav a:hover {
-    background-color: #002244; /* cuando el usuario pasa el mouse sobre un enlace cambia de color*/
+    background-color: rgba(255, 255, 255, 0.1); /* cuando el usuario pasa el mouse sobre un enlace cambia de color*/
 }
 
 html {
     scroll-behavior: smooth; /* aplica el desplazamiento suave*/
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 /*estilo gral para todas las secciones*/
@@ -55,13 +74,13 @@ section {
 }
 
 #Inicio {
-    background-color: #8affe2ec; 
-    border-left: 5px solid #004080; /* borde izquierdo para darle enfasis a la seccion*/
-    border-right: 3px solid #004080 ;/* borde derecho para darle enfasis a la seccion*/
+    background-color: #ffffff; 
+    border-left: 5px solid #000000; /* borde izquierdo para darle enfasis a la seccion*/
+    border-right: 3px solid #000000 ;/* borde derecho para darle enfasis a la seccion*/
     padding-left: 20px;
     max-width: 800px;
     width: 90%;
-    margin-left: 30px;
+    
     justify-content: center; 
 }
 #Servicios { 
@@ -107,22 +126,30 @@ p {
 /* estilo para las listas dentro de las secciones*/
 ul {
     padding-left: 20px; /*añade sangria a la izquierda*/
+    
 }
 
-/*estilo para los items de las listas*/
-ul li {
-    margin-bottom: 8px; /* espacio abajo de cada item de la lista*/
+a {
+    font-size: 30px;
 }
 
-/* Imagen */
 img {
 
-    width: 180px;
+    width: 200px;
     height: auto;
     position: absolute;
-    top: 40px;
-    left: 20px;
-    z-index: 1000;
+    
 }
 
+.nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+}
