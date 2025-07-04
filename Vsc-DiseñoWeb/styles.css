@@ -6,7 +6,7 @@ body {
     padding: 0px;
     background-color: #f4f4f4;
     color: #333;
-    background-image: url("/Vsc-DiseñoWeb/Imagenes/fire-1842140.jpg");
+    background-image: url("/Vsc-DiseñoWeb/Imagenes/ChatGPT\ Image\ 26\ jun\ 2025\,\ 18_17_13.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -74,7 +74,7 @@ section {
 }
 
 #Inicio {
-    background-color: #ffffff; 
+    background-color: #ffffff80; 
     border-left: 5px solid #000000; /* borde izquierdo para darle enfasis a la seccion*/
     border-right: 3px solid #000000 ;/* borde derecho para darle enfasis a la seccion*/
     padding-left: 20px;
