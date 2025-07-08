@@ -155,3 +155,7 @@ a {
 html {
     scroll-behavior: smooth; /* aplica el desplazamiento suave*/
 }
+
+.lista-serv {
+    color: #f0f0f0;
+}
