@@ -1,0 +1,161 @@
+
+/*estilo para toda la pagina*/
+body {
+    font-family: system-ui, sans-serif;
+    margin: 0; /* mejor sin margen global */
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    background-image: url("/Imagenes/FondoTech.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+/*encabezado*/
+header {
+    display: flex;
+    align-items: center;      
+    padding: 20px 50px;       
+    background-color: rgba(0, 0, 0, 0.5);   
+}
+
+.logo {
+    margin-right: 30px;
+}
+
+
+.logo img {
+    width: 200px; /* tamaño controlado sólo para el logo */
+    height: auto;
+}
+
+
+/* Lista de navegación */
+.nav-link {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px 20px;
+    font-weight: 600;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background-color: #f0f0f0;
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/*menu de navegacion*/
+nav ul {
+    list-style: none; /* esto saca los puntos de la lista*/
+    display: flex; /*activa flexbox para alinear en fila*/
+    justify-content: center; /*centra horizontalmente*/
+    gap: 20px; /* espacio entre los items*/
+    padding: 0; /*elimina el padding de la lista*/
+    margin: 0; /*elimina el margen de la lista*/
+    border-radius: 8px;
+}
+
+
+
+#Inicio {
+    background-color: rgba(128, 128, 128, 0.671); 
+    border-left: 5px solid rgb(255, 255, 255); /* borde izquierdo para darle enfasis a la seccion*/
+    border-right: 5px solid rgb(255, 255, 255);/* borde derecho para darle enfasis a la seccion*/
+    padding-left: 20px;
+    max-width: 800px;
+    width: 90%;
+    
+    justify-content: center; 
+}
+#Servicios { 
+    background-color: rgba(128, 128, 128, 0.671); 
+    border-left: 5px solid rgb(255, 255, 255); /* borde izquierdo para darle enfasis a la seccion*/
+    border-right: 5px solid rgb(255, 255, 255);/* borde derecho para darle enfasis a la seccion*/
+    padding-left: 20px;
+    max-width: 800px;
+    width: 90%;
+    
+    justify-content: center;  
+}
+#NuestroEquipo { 
+    background-color: rgba(128, 128, 128, 0.671); 
+    border-left: 5px solid rgb(255, 255, 255); /* borde izquierdo para darle enfasis a la seccion*/
+    border-right: 5px solid rgb(255, 255, 255);/* borde derecho para darle enfasis a la seccion*/
+    padding-left: 20px;
+    max-width: 800px;
+    width: 90%;
+    
+    justify-content: center; 
+}
+
+#Contacto {
+    background-color: rgba(128, 128, 128, 0.671); 
+    border-left: 5px solid rgb(255, 255, 255); /* borde izquierdo para darle enfasis a la seccion*/
+    border-right: 5px solid rgb(255, 255, 255);/* borde derecho para darle enfasis a la seccion*/
+    padding-left: 20px;
+    max-width: 800px;
+    width: 90%;
+    
+    justify-content: center; 
+}
+
+/*estilo para titulo secundario*/
+h2 {
+    color: #ffffff; /*color para los titulos*/
+    margin-bottom: 10px; /* añade un margen abajo del titulo para separarlo del contenido siguiente*/
+}
+
+/*estilo para parrafos*/
+p {
+    line-height: 1.6; /* interlineado */
+    color: rgb(255, 255, 255);
+}
+
+/* estilo para las listas dentro de las secciones*/
+ul {
+    padding-left: 20px; /*añade sangria a la izquierda*/
+    
+}
+
+a {
+    font-size: 30px;
+}
+
+html {
+    scroll-behavior: smooth; /* aplica el desplazamiento suave*/
+}
+
+.lista-serv {
+    color: #f0f0f0;
+}
